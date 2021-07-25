@@ -10,5 +10,16 @@ CREATE TABLE department(
     PRIMARY KEY (id)
 );
 
+DROP DATABASE IF EXISTS role_db;
 
+CREATE DATABASE role_db;
+USE role_db;
+
+DROP TABLE IF EXISTS role;
+CREATE TABLE role(
+id INT NOT NULL,
+title VARCHAR(30),
+salary DECIMAL,
+FOREIGN KEY(department_id)
+);
 
