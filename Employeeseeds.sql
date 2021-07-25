@@ -20,4 +20,4 @@ VALUES (1, "HR-Manager", 75000),
        (2, "Supervisor", 45000),
        (3, "Payroll-personnel", 5000),
        (4, "Safety personnel I", 55000),
-       (4, "Safety personnel II", 5000),
+       (4, "Safety personnel II", 5000);
