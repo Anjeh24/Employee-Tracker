@@ -1,7 +1,11 @@
+--Creating database
+
 DROP DATABASE IF EXISTS employeetracker_db;
 
 CREATE DATABASE employeetracker_db;
 USE employeetracker_db;
+
+--Creating department table--
 
 DROP TABLE IF EXISTS department;
 CREATE TABLE department(
@@ -12,7 +16,7 @@ CREATE TABLE department(
 
 
 
-
+--Creating table for roles
 
 DROP TABLE IF EXISTS role;
 CREATE TABLE role(
@@ -23,7 +27,7 @@ department_id INT,
 REFERENCES department(id) FOREIGN KEY(department_id)
 );
 
-
+--Creating employee table--
 
 DROP TABLE IF EXISTS employee;
 CREATE TABLE employee(
