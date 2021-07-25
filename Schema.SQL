@@ -23,3 +23,5 @@ salary DECIMAL,
 FOREIGN KEY(department_id)
 );
 
+
+
