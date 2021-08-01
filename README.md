@@ -1,5 +1,6 @@
 # Employee-Tracker
-This project is to create an app that can be used  track and add employees in a database and also help analyze how much is being spent between departments.
+This project is to create an app that can be used  track and add employees in a database and also help analyze how much is being spent between departments. Sequel was used to create the database and insert the seeds. While JS was used to create a connection and provide options for editing the database.  
+Link to video demo on how it works; https://drive.google.com/file/d/16x4p7WO-cTGW485EtC2ZdF1y8RW3MvTM/view
 
 View of results:
 
